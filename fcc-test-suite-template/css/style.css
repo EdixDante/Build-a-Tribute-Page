@@ -1,4 +1,33 @@
-.header-main {
+html{
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    margin: 30px 10px;
+    background-color: #3333;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.photo{
+    background-color: white;
+    margin: 40px 10px;
+    
+}
+.photo img{
+    width: 600px;
+    height: 350px;
+}
+.image-footer {
+    margin: 0px 7em ;
+}
+li{
+    margin: 16px 0;
+    line-height: 1.6;
+}
+.list{
+    text-align: start;
+    margin: 7em;
 }
